@@ -1,0 +1,90 @@
+Library {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+book {
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 20px;
+  width: 40%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+title {
+  font-size: 20pt;
+  color: #760101;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+
+author {
+  font-size: 18pt;
+  color: #333333;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+
+preface {
+  font-size: 14pt;
+  color: #333333;
+  margin-bottom: 100px;
+}
+
+parts {
+  padding: 10pt;
+}
+
+part {
+  padding: 5pt;
+}
+
+chapters {
+  display: block;
+}
+
+chapter {
+  display: block;
+}
+
+chapter title {
+  font-size: 14pt;
+  color: #760101;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+/* Styles for the summary */
+summary {
+  display: block;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+sections {
+  padding: 5pt;
+}
+
+section {
+  margin-bottom: 5pt;
+  display: block;
+  margin-left: 20px;
+}
+
+section p {
+  display: block;
+  color: #000000;
+  font-size: 10px;
+  margin-bottom: 5px;
+}

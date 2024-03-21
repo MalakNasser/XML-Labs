@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employees [
+    <!ELEMENT employees (employee+)>
+    <!ELEMENT employee (name,phones,addresses,email)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT phones (phone+)>
+    <!ELEMENT phone (#PCDATA)>
+    <!ELEMENT addresses (address+)>
+    <!ELEMENT address (street,buildingNumber,Region,city,country)>
+    <!ELEMENT street (#PCDATA)>
+    <!ELEMENT buildingNumber (#PCDATA)>
+    <!ELEMENT city (#PCDATA)>
+    <!ELEMENT country (#PCDATA)>
+    <!ELEMENT Region (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ATTLIST phone type (home | mobile | work) "mobile">
+]>
+<?xml-stylesheet type="text/css" href="employees.css"?>
+<employees>
+    <employee>
+        <name>Malak Nasser</name>
+        <phones>
+            <phone type="home">123-456-7890</phone>
+            <phone type="work">123-456-7890</phone>
+            <phone type="mobile">123-456-7890</phone>
+        </phones>
+        <addresses>
+            <address>
+                <street>123 Main St</street>
+                <buildingNumber>1</buildingNumber>
+                <Region>sidi beshr</Region>
+                <city>Alexandria</city>
+                <country>Egypt</country>
+            </address>
+            <address>
+                <street>123 Main St</street>
+                <buildingNumber>1</buildingNumber>
+                <Region>smouha</Region>
+                <city>Alexandria</city>
+                <country>Egypt</country>
+            </address>
+        </addresses>
+        <email>malak.nasser@example.com</email>
+    </employee>
+    <employee>
+        <name>Manal Amin</name>
+        <phones>
+            <phone type="home">123-456-7890</phone>
+            <phone type="work">123-456-7890</phone>
+            <phone type="mobile">123-456-7890</phone>
+        </phones>
+        <addresses>
+            <address>
+                <street>123 Main St</street>
+                <buildingNumber>1</buildingNumber>
+                <Region>sidi beshr</Region>
+                <city>Alexandria</city>
+                <country>Egypt</country>
+            </address>
+            <address>
+                <street>123 Main St</street>
+                <buildingNumber>1</buildingNumber>
+                <Region>smouha</Region>
+                <city>Alexandria</city>
+                <country>Egypt</country>
+            </address>
+        </addresses>
+        <email>manal.amin@example.com</email>
+    </employee>
+</employees>
